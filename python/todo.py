@@ -10,9 +10,6 @@ def add_task(task):
     Return - nothing
     """
     
-    """
-    Test comment for test 
-    """
 
 def list_tasks():
     return

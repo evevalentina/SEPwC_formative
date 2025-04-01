@@ -1,12 +1,12 @@
 import argparse
 import os
 
-TASK_FILE = "test/test_list.txt"
+TASK_FILE = ".tasks.txt"
 
 def add_task(task):
     """Function: add_task 
     
-    Input - a task to add to the list 
+    Input - a task to add to the list
     Return - nothing 
     """
     

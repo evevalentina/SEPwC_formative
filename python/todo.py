@@ -16,7 +16,7 @@ def list_tasks():
 
 
     return
-  hshshs
+  
 
 def remove_task(index):
     return

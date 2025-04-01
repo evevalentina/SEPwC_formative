@@ -4,9 +4,9 @@ import os
 TASK_FILE = "test/test_list.txt"
 
 def add_task(task):
-    """Function: add_task
+    """Function: add_task 
     
-    Input - a task to add to the list
+    Input - a task to add to the list 
     Return - nothing 
     """
     

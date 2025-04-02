@@ -13,6 +13,10 @@ def list_tasks():
     
     with open(TASK_FILE, "r", encoding= "utf-8") as file:
         tasks = file.readlines()
+        counter = 1
+        tasks in tasks:
+            output_string = output_string + 
+            
 
     return
 

@@ -15,7 +15,8 @@ def list_tasks():
         tasks = file.readlines()
         counter = 1
         tasks in tasks:
-            output_string = output_string + 
+            output_string = output_string + sri(counter) + ","+tasks
+            counter = counter + 1
             
 
     return

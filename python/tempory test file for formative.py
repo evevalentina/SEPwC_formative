@@ -6,7 +6,8 @@ Created on Wed Apr  2 12:53:50 2025
 """
 
 #Create a tempory new test function 
-def test_my_function(def list_tasks():
+def test_my_function(def list_tasks(TASK_FILE = ".tasks.txt"
+):
     
     with open(TASK_FILE, "r", encoding= "utf-8") as file:
         tasks = file.readlines()

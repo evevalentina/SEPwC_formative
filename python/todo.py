@@ -14,9 +14,8 @@ def list_tasks():
     with open(TASK_FILE, "r", encoding= "utf-8") as file:
         tasks = file.readlines()
 
-
     return
-  
+
 
 def remove_task(index):
     return

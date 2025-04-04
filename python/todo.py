@@ -4,11 +4,14 @@ import os
 TASK_FILE = ".tasks.txt"
 
 def add_task(task):
-    """Function: add_task 
+    Function: add_task 
 #creating a empty list to add tasks
 
-task = input(Item_1, Item_2 , Item_3, Item_4, Item_5)
-    Input - a task to add to the list
+ def task = input(Item_1, Item_2 , Item_3, Item_4, Item_5):
+     print(task)
+     
+    
+Input - a task to add to the list
     Return - nothing 
     """
 def list_tasks():

@@ -7,8 +7,7 @@ def add_task(task):
     Function: add_task 
 #creating a empty list to add tasks
 
- def task = input(Item_1, Item_2 , Item_3, Item_4, Item_5):
-     print(task)
+ task = input(Item_1, Item_2 , Item_3, Item_4, Item_5):
      
     
 Input - a task to add to the list

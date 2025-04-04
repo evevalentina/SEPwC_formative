@@ -5,6 +5,7 @@ TASK_FILE = ".tasks.txt"
 
 def add_task(task):
     Function: add_task 
+with open(TASK_FILE) as file
 #inputting items into a task 
 
 list[Item_1, Item_2 , Item_3, Item_4, Item_5]:

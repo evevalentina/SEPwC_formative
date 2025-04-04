@@ -19,7 +19,7 @@ def list_tasks():
         output_string = ""
         counter = 1
         for tasks in tasks:
-            output_string = output_string + str(counter) + ","+ tasks
+            output_string = output_string + str(counter) + ". "+ tasks
             counter = counter + 1
             
     return output_string

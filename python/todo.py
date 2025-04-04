@@ -6,9 +6,6 @@ fileTASK_FILE = ".tasks.txt"
 def add_task(task):
     with open(TASK_FILE, "a", encoding= "utf-8") as file
     file.write(task + "\n")
-    #manual task file wtitten as a list
-    list[Item_1, Item_2 , Item_3, Item_4, Item_5]:
-     print(list)
      
      
      

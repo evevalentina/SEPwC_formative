@@ -6,12 +6,13 @@ fileTASK_FILE = ".tasks.txt"
 def add_task(task):
     Function: add_task 
 with open(TASK_FILE) as file
-#inputting items into a task 
+#inputting items into a task
 #manual task file wtitten as a list
 list[Item_1, Item_2 , Item_3, Item_4, Item_5]:
      print(list)
      
-    
+     
+     
 Input - a task to add to the list
     Return - nothing 
     
@@ -22,7 +23,7 @@ def list_tasks():
         counter = 1
       for tasks in tasks:
             output_string = output_string + str(counter) + ","+ tasks
-            counter = counter + 1
+            counter = counter + 1 
             
 
     return

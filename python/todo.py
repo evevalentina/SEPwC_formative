@@ -21,6 +21,9 @@ def list_tasks():
         for tasks in tasks:
             output_string = output_string + str(counter) + ". "+ tasks
             counter = counter + 1
+            string = string.rstrip("\n")
+
+
             
     return output_string
 

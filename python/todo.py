@@ -9,15 +9,15 @@ def add_task(task):
      
      
 
-Input - a task to add to the list
-    Return - nothing 
+#Input - a task to add to the list
+   # Return - nothing 
     
 def list_tasks():
     
     with open(TASK_FILE, "r", encoding= "utf-8") as file:
         tasks = file.readlines()
         counter = 1
-      for tasks in tasks:
+        for tasks in tasks:
             output_string = output_string + str(counter) + ","+ tasks
             counter = counter + 1
             

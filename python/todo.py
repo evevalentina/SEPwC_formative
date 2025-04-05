@@ -14,12 +14,14 @@ def add_task(task):
     
 def list_tasks():
     
-    with open(TASK_FILE, "r", encoding= "utf-8") as file:
+    with open(TASK_FILE, "r", encoding= "utf-8") as file: 
         tasks = file.readlines()
         output_string = ""
         counter = 1
         for tasks in tasks:
-            output_string = output_string + str(counter) + ". "+ tasks
+            output_string = output_stri
+
+def remove_task(index):ng + str(counter) + ". "+ tasks
             counter = counter + 1
             output_string = string.rstrip("\n")
 
@@ -27,8 +29,6 @@ def list_tasks():
             
     return output_string
 
-
-def remove_task(index):
     return
 
 def main():

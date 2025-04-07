@@ -19,7 +19,7 @@ def list_tasks():
         output_string = ""
         counter = 1
         for tasks in tasks:
-            output_string = output_stri
+            output_string = output_string
 
 def remove_task(index):ng + str(counter) + ". "+ tasks
             counter = counter + 1

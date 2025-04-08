@@ -27,9 +27,8 @@ def remove_task(index):ng + str(counter) + ". "+ tasks
 
 
             
-    return output_string
+    return output_string()
 
-    return
 
 def main():
     parser = argparse.ArgumentParser(description="Command-line Todo List")

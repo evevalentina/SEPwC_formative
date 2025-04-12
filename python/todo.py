@@ -10,9 +10,9 @@ def add_task(task):
      
 
 #Input - a task to add to the list
-    #Return - nothing 
+    #Return - nothing
     
-def list_tasks():
+def list_tasks(): 
     
     with open(TASK_FILE, "r", encoding= "utf-8") as file: 
         tasks = file.readlines()
@@ -125,4 +125,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main()WORDS

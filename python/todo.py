@@ -27,7 +27,7 @@ def remove_task(index):ng + str(counter) + ". "+ tasks
 
 
             
-    return output_string()
+    return output_string
 
 
 def main():

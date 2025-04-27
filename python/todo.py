@@ -9,22 +9,29 @@ def add_task(task):
      
      
 
-#Input - a task to add to the list
-    #Return - nothing
-    
 def list_tasks(): 
-    
+   if os.path.exists(TASK_FILE):
     with open(TASK_FILE, "r", encoding= "utf-8") as file: 
         tasks = file.readlines()
         output_string = ""
         counter = 1
         for tasks in tasks:
             output_string = output_string
+   return output_string
 
-def remove_task(index):ng + str(counter) + ". "+ tasks
-            counter = counter + 1
-            output_string = string.rstrip("\n")
 
+def remove_task(index):
+
+    if os.path.exists(TASK_FILE):
+        with open(TASK_FILE, "r", encoding="utf-8") as file:
+            tasks = file.readlines()
+        with open(TASK_FILE, "w", encoding="utf-8") as file:
+            for i, task in enumerate(tasks, counter=1):
+                if i != index:
+                    file.write(task)
+        print("Task Removed :)")
+    else:
+        print("No Tasks Found :(")
 
             
     return output_string

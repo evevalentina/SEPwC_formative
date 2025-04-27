@@ -35,43 +35,6 @@ def remove_task(index):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Command-line Todo List")
-    parser.add_argument(
-            "-a",
-            "--add",
-            help="Add a new task"import argparse
-            import os
-
-            TASK_FILE = ".tasks.txt"
-
-            def add_task(task):
-                with open(TASK_FILE, "a", encoding= "utf-8") as file:
-                  file.write(task + "\n")
-                 
-                 
-
-            #Input - a task to add to the list
-                #Return - nothing 
-                
-                 def list_tasks():
-                
-                with open(TASK_FILE, "r", encoding= "utf-8") as file: 
-                    tasks = file.readlines()
-                    output_string = "" 
-                    counter = 1
-                    for tasks in tasks:
-                        output_string = output_string
-
-            def remove_task(index):ng + str(counter) + ". "+ tasks
-                        counter = counter + 1
-                        output_string = string.rstrip("\n")
-
-
-                        
-                return output_string()
-
-
-            def main():
                 parser = argparse.ArgumentParser(description="Command-line Todo List")
                 parser.add_argument(
                         "-a",

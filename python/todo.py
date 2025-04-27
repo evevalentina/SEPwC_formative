@@ -33,9 +33,6 @@ def remove_task(index):
     else:
         print("No Tasks Found :(")
 
-            
-    return output_string
-
 
 def main():
     parser = argparse.ArgumentParser(description="Command-line Todo List")

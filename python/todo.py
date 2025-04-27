@@ -39,17 +39,17 @@ def main():
     parser.add_argument(
                         "-a",
                         "--add",
-                        help="Add a new task"
+                        help = "Add a new task todo"
                         )
     parser.add_argument(
                         "-l",
                         "--list",
                         action="store_true",
-                        help="List all tasks")
+                        help = "List all todo tasks")
     parser.add_argument(
                         "-r",
                         "--remove",
-                        help="Remove a task by index")
+                        help = "Remove a task todo by index")
 
                 args = parser.parse_args()
 

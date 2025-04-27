@@ -35,62 +35,36 @@ def remove_task(index):
 
 
 def main():
-                parser = argparse.ArgumentParser(description="Command-line Todo List")
-                parser.add_argument(
+    parser = argparse.ArgumentParser(description="Command-line Todo List")
+    parser.add_argument(
                         "-a",
                         "--add",
                         help="Add a new task"
                         )
-                parser.add_argument(
+    parser.add_argument(
                         "-l",
                         "--list",
                         action="store_true",
                         help="List all tasks")
-                parser.add_argument(
+    parser.add_argument(
                         "-r",
                         "--remove",
                         help="Remove a task by index")
 
                 args = parser.parse_args()
 
-                if args.add:
+    if args.add:
                     add_task(args.add)
-                elif args.list:
+    elif args.list:
                     tasks = list_tasks()
                     print(tasks)
-                elif args.remove:
+    elif args.remove:
                     remove_task(int(args.remove))
                 else:
                     parser.print_help()
 
 
-            if __name__ == "__main__":
-                main()
-
-            )
-    parser.add_argument(
-            "-l",
-            "--list",
-            action="store_true",
-            help="List all tasks")
-    parser.add_argument(
-            "-r",
-            "--remove",
-            help="Remove a task by index")
-
-    args = parser.parse_args()
-
-    if args.add:
-        add_task(args.add)
-    elif args.list:
-        tasks = list_tasks()
-        print(tasks)
-    elif args.remove:
-        remove_task(int(args.remove))
-    else:
-        parser.print_help()
-
-    
-
 if __name__ == "__main__":
-    main()WORDS
+                main()
+        
+ 
